@@ -1,0 +1,155 @@
+/* =Busca
+------------------------- */
+	#barra-estacao-busca {
+		width: 370px;
+		margin: 5px 5px 0px 0px;
+		padding: 0px 0px 0px 0px;
+		float: right;
+		/*background-color: #fff;*/
+		background: #F8F8F6;
+		/* IE */
+		height: 1em;
+		font-size: xx-small;
+		f\ont-size: x-small;
+	}
+	#barra-estacao-busca a {
+		text-decoration: underline;
+		color: #000;
+	}
+	html > body #barra-estacao-busca {
+		height: auto;
+	}
+	#busca-divisoes p {
+		text-align: left;
+		float: left;
+		background: url('https://simg.uol.com.br/sac/busca/i_busca.gif') no-repeat 0px 50%;
+		padding: 0px 0px 0px 17px;
+		margin: 2px 5px 0px 18px;
+		display: inline;
+		width: 65px;
+
+	}
+	#busca-divisoes p a {
+		color: #000;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 1em;
+	}
+	#busca-divisoes p a:hover {
+		text-decoration: underline;
+	}
+	#busca-divisoes ul {
+		margin: 1px 0px -1px 0px;
+		padding: 0px 0px 0px 2px;
+		float: right;
+		list-style-type: none;
+		position: relative;
+
+	}
+	#busca-divisoes li {
+		float: left;
+		background-image: url('https://simg.uol.com.br/sac/busca/separador-abas-busca.gif');
+		background-repeat: no-repeat;
+		background-position: 100% 50%;
+		margin-left: -1px;
+	}
+	#busca-divisoes li a {
+		display: block;
+		padding: 1px 0px 2px;
+		margin: 0px 1px -1px;
+		text-align: center;
+	}
+	#busca-divisoes li a:hover {
+		background-color: #ddd;
+	}
+	#busca-indicador {
+		display: none;
+	}
+	#caixa-busca {
+		margin: 0px 3px 0px 1px;
+		padding: 1px 0px 1px !important;
+		background-color: #E0D6CD;
+		text-align: center !important;
+		border: 1px solid #999;
+		width: 350px !important;
+	}
+	#caixa-busca .caixa-busca {
+		font-size: 1.2em !important;
+   	width: 285px;
+		border-width: 2px !important;
+		border-style: inset !important;
+		height: auto;
+	}
+	#caixa-busca .caixa-busca-precos {
+		font-size: 1.2em !important;
+   	width: 205px;
+		border-width: 2px !important;
+		border-style: inset !important;
+		height: auto;
+	}
+	#caixa-busca select {
+		font-size: 0.9em !important;
+		width: 0px;
+	}
+	#caixa-busca .busca-enviar {
+		font-size: 1.2em;
+		padding: 0px;
+		margin: 0px;
+		width: auto;
+		height: auto;
+	}
+	.ativa-busca-web .busca-web, .ativa-busca-noticias .busca-noticias, .ativa-busca-imagens .busca-imagens, .ativa-busca-precos .busca-precos, .ativa-busca-videos .busca-videos, .ativa-busca-shopping .busca-shopping {
+		background-image: none !important;
+		background-color: #E0D6CD;
+		border: 1px solid #999;
+		border-bottom: 1px solid #E0D6CD;
+	}
+	.ativa-busca-web .busca-web a, .ativa-busca-noticias .busca-noticias a, .ativa-busca-imagens .busca-imagens a, .ativa-busca-precos .busca-precos a, .ativa-busca-videos .busca-videos a, .ativa-busca-shopping .busca-shopping a {
+		font-weight: 700;
+		color: #000;
+		text-decoration: none !important;
+		background-color: transparent !important;
+		cursor: default;
+	}
+	.ultimo {
+		background-image: none !important;
+	}
+	.busca-web {
+		width: 38px;
+	}
+	.busca-noticias {
+		width: 56px;
+	}
+	.busca-imagens {
+		width: 56px;
+	}
+	.busca-precos {
+		width: 48px;
+	}
+	.busca-shopping {
+		width: 60px;
+	}
+	.busca-videos {
+		width: 50px;
+	}
+
+	
+	#estacao-ajuda, #estacao-sair {
+		float: right;
+	}
+	#estacao-ajuda a, #estacao-sair a {
+		padding: 0px 10px 0px 30px;
+		border-left: 1px solid #aaa;
+		display: block;
+		color: #000;
+		text-decoration: none;
+	}
+	#estacao-ajuda a:hover, #estacao-sair a:hover {
+		text-decoration: underline;
+	}
+	#estacao-ajuda a {
+		background: url('https://simg.uol.com.br/sac/busca/ico_ajuda.gif') no-repeat 10px 50%;
+	}
+	#estacao-sair a {
+		background: url('https://simg.uol.com.br/sac/busca/ico_sair.gif') no-repeat 5px 50%;
+	}

@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://www.recarreguefacil.com.br/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<script async="" src="./index_files/analytics.js"></script><script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-44766610-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+		<link href="http://www.recarreguefacil.com.br/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+	<title>
+		Recarregue Fácil - A qualquer hora e de qualquer lugar!
+			</title>
+	<link rel="stylesheet" type="text/css" href="./index_files/style2.css"><script type="text/javascript" src="./index_files/jquery-latest.js"></script><script type="text/javascript" src="./index_files/jquery.msdropdown.min.js"></script>	<link rel="stylesheet" type="text/css" href="./index_files/colorbox.css">
+	<script src="./index_files/colorbox.js" type="text/javascript"></script>
+	<script type="text/javascript" src="./index_files/jquery.bxSlider.js"></script>
+
+	<script src="./index_files/sweet-alert.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./index_files/sweet-alert.css">
+
+	<script type="text/javascript">
+	    $(document).ready(function(){
+	        $('#banner').bxSlider({
+	            auto: false,
+	            pager: false,
+	            width: 1920,
+	            height: 447
+	        });
+	    })
+	</script>
+</head>
+<body><div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" style="padding-bottom: 42px; padding-right: 42px; display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxLoadedContent" class="" style="width: 0px; height: 0px; overflow: hidden;"></div><div id="cboxLoadingOverlay" class=""></div><div id="cboxLoadingGraphic" class=""></div><div id="cboxTitle" class=""></div><div id="cboxCurrent" class=""></div><div id="cboxNext" class=""></div><div id="cboxPrevious" class=""></div><div id="cboxSlideshow" class=""></div><div id="cboxClose" class=""></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none;"></div></div>
+
+	<div id="topo">
+		<div class="centro">
+			<div class="menu-principal-container">
+				<ul id="menu-principal" class="menu">
+					<li id="menu-item-1214" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1214">
+						<a href="http://www.recarreguefacil.com.br/#" id="login_index">Minha conta</a>
+					</li>
+					<li id="menu-item-1182" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1182">
+						<a href="http://www.recarreguefacil.com.br/faq">FAQ</a>
+					</li>
+					<li id="menu-item-1184" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1184">
+						<a href="http://www.recarreguefacil.net.br/novo/blog/">Blog</a>
+					</li>
+					<li id="menu-item-1183" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1183">
+						<a href="http://www.recarreguefacil.com.br/contato">Contato</a>
+					</li>
+				</ul>
+			</div>			
+
+			<h1 class="logo">
+				<a href="http://www.recarreguefacil.com.br/home" title="Recarregue Fácil - A qualquer hora e de qualquer lugar!">Recarregue Fácil</a>
+			</h1>
+		</div><!-- centro -->
+	</div><!-- topo -->
+
+	
+	<script type="text/javascript">
+
+    function mascara(o,f){
+        v_obj=o;
+        v_fun=f;
+        setTimeout("execmascara()",1);
+    }
+    function execmascara(){
+            v_obj.value=v_fun(v_obj.value);
+    }
+    function id( el ){
+            return document.getElementById( el );
+    }
+    function mnum(v){
+        v=v.replace(/\D/g,"");//Remove tudo o que não é dígito
+        return v;
+    }
+
+    $(document).ready(function(){
+        id('ddd').onkeypress = function(){
+                mascara( this, mnum );
+        }
+
+        id('celular').onkeypress = function(){
+                mascara( this, mnum );
+        }
+
+        id('ddd2').onkeypress = function(){
+                mascara( this, mnum );
+        }
+
+        id('celular_login').onkeypress = function(){
+                mascara( this, mnum );
+        }
+
+        id('senha').onkeypress = function(){
+                mascara( this, mnum );
+        }
+
+        //$('#retorno_valor').hide();
+        $('#recarga_painel').hide();
+
+        $('#login_index').click(function(){
+            $('#recarga_rapida').hide();
+            $('#recarga_painel').show();
+            return false;
+        });
+
+        $('#compra_rapida').click(function(){
+            $('#recarga_rapida').show();
+            $('#recarga_painel').hide();
+            return false;
+        });
+
+        function getRadioValor(name){
+            var rads = document.getElementsByName(name);
+          
+            for(var i = 0; i < rads.length; i++){
+                if(rads[i].checked){
+                    return rads[i].value;
+                }
+          
+            }
+          
+            return null;
+        }
+
+        $('#recarga_rapida2').submit(function(){
+            ddd = $("#ddd").val();
+            celular = $("#celular").val();
+            operadora = getRadioValor('operadora');
+            valor = $('#valor').val();
+            
+            if (ddd == '') {
+                swal({
+                      title: 'Digite um DDD.',
+                      timer: 20000000
+                    });
+                document.getElementById('ddd').focus();
+                return false;
+            }
+
+            if (celular == '') {
+                swal({
+                      title: 'Digite um celular.',
+                      timer: 20000000
+                    });
+                document.getElementById('celular').focus();
+                return false;
+            }
+
+            if (operadora == null) {
+                swal({
+                      title: 'Selecione uma operadora.',
+                      timer: 20000000
+                    });
+                return false;
+            }
+
+            if (valor == '') {
+                swal({
+                      title: 'Selecione um valor de recarga.',
+                      timer: 20000000
+                    });
+                return false;
+            }
+
+            if (celular.length > 9 || celular.length < 8) {
+                swal({
+                      title: 'Celular inválido.',
+                      timer: 20000000
+                    });
+                document.getElementById('celular').focus();
+                return false;
+            }
+
+            if (ddd.length > 2 || ddd.length < 2) {
+                swal({
+                      title: 'DDD inválido.',
+                      timer: 20000000
+                    });
+                document.getElementById('ddd').focus();
+                return false;
+            } 
+        });
+        
+        $('#login_sistema').submit(function(){
+            ddd = $("#ddd2").val();
+            celular = $("#celular_login").val();
+            operadora = getRadioValor('operadora');
+            
+            if (ddd == '') {
+                swal({
+                      title: 'Digite um DDD.',
+                      timer: 20000000
+                    });
+                document.getElementById('ddd2').focus();
+                return false;
+            }
+
+            if (celular == '') {
+                swal({
+                      title: 'Digite um celular.',
+                      timer: 20000000
+                    });
+                document.getElementById('celular_login').focus();
+                return false;
+            }
+
+            if (operadora == null) {
+                swal({
+                      title: 'Selecione uma operadora.',
+                      timer: 20000000
+                    });
+                return false;
+            }
+
+            if (celular.length > 9 || celular.length < 8) {
+                swal({
+                      title: 'Celular inválido.',
+                      timer: 20000000
+                    });
+                document.getElementById('celular_login').focus();
+                return false;
+            }
+
+            if (ddd.length > 2 || ddd.length < 2) {
+                swal({
+                      title: 'DDD inválido.',
+                      timer: 20000000
+                    });
+                document.getElementById('ddd2').focus();
+                return false;
+            } 
+        });
+
+        $('.operadora').click(function(){  
+            $.ajax({
+            type: "POST",
+            dataType: "json",
+            url: "/users/ajax_valores_recarga",
+            data: ({
+                    operadora:getRadioValor('operadora')//,
+                    //ddd:$('#ddd').val(),
+                    //celular:$('#celular').val()
+                }),
+            success : function(data){
+                    var options = "";
+                    $.each(data, function(key,val){
+                        if (val == null) {
+                            //$('#retorno_valor').hide();
+                            //options += '<input type="hidden" name="valor" value=""/>'
+                        } else {
+                            //$('#retorno_valor').show();   
+                            options += '<option value="'+val+'">R$'+val+',00</option>';
+                        }
+                    });
+                    $('#valor').html(options);
+                },
+            error : function(){alert('Ocorreu um problema')}
+            });
+        }); 
+    });
+    
+</script>
+<!--<div id="banner"></div>
+<div id="content">
+            <div id="cadastro">
+                
+            </div>
+</div>-->
+
+<div id="banner-ext">
+    <div class="bx-wrapper" style="width:1349px; position:relative;"><div class="bx-window" style="height:470px; width:1349px; position:relative; overflow:hidden;"><ul id="banner">
+        <li style="list-style: none; position: absolute; top: 0px; left: 0px; z-index: 99;">
+            <img src="./index_files/banner-recarga-sorte.jpg">
+        </li>   
+    </ul></div><a href="" class="bx-prev">prev</a><a href="" class="bx-next">next</a></div>
+    <div class="recarga" id="recarga_rapida">
+        <h2>Compra rápida de recarga online</h2>
+            <form action="dados.php" id="recarga_rapida2" method="post" accept-charset="utf-8"> 
+            
+            <ul>
+                <li>
+                    <label>DDD</label>
+                    <input type="text" name="ddd" id="ddd" maxlength="2">
+                </li>
+                <li class="tel">
+                    <label for="boxcelular">Numero do celular</label>
+                    <input type="text" name="celular" id="celular" maxlength="9">
+                </li>
+                <li id="esc-operadoras">
+                    <label>Escolha a sua operadora</label>
+                    <label for="tim" class="tim"><input type="radio" name="operadora" class="operadora" id="tim" value="TIM"></label>
+                    <label for="vivo" class="vivo"><input type="radio" name="operadora" class="operadora" id="vivo" value="VIVO"></label>
+                    <label for="oi" class="oi"><input type="radio" name="operadora" class="operadora" id="oi" value="OI"></label>
+                    <label for="claro" class="claro"><input type="radio" name="operadora" class="operadora" id="claro" value="CLARO"></label>
+                </li>
+                <li>
+                    <!--<div id="retorno_valor">-->
+                        <label for="boxvalor">Escolha o valor</label>
+                        <select name="valor" id="valor">
+                            <option value="">Selecione</option>
+                        </select>
+                    <!--</div>-->
+                    <input type="submit" class="recAgora" value="Recarregar Agora!">
+                    
+                </li>
+                
+                <!--<li>
+                    <a href="" class="some" id="login_index" style="color:red;margin-top: -15px; float: left; margin-bottom: -10px; font: 14px tahoma; text-align: center; display: inline-block; margin-left: -10px; padding-left: 80px;">Ou acesse sua conta.</a>
+                </li>-->
+            </ul></form>
+
+        <h3>Recarregue e pague em até 40 dias</h3>
+        <img src="./index_files/img-cartoes.png" width="244" height="84" alt="">                                   
+    </div>
+
+    <div class="recarga" id="recarga_painel" style="display: none;">
+        <h2>Acesse sua conta</h2>
+            <form action="./index_files/index.html" id="login_sistema" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"></div>            <ul>
+                <li>
+                    <label>DDD</label>
+                    <input type="text" name="ddd" id="ddd2" maxlength="2">
+                </li>
+                <li class="tel">
+                    <label for="boxcelular">Numero do celular</label>
+                    <input type="text" name="celular" id="celular_login" maxlength="9">
+                </li>
+                <li id="esc-operadoras2">
+                    <label>Escolha a sua operadora</label>
+                    <label for="tim2" class="tim"><input type="radio" name="operadora" id="tim2" value="TIM"></label>
+                    <label for="vivo2" class="vivo"><input type="radio" name="operadora" id="vivo2" value="VIVO"></label>
+                    <label for="oi2" class="oi"><input type="radio" name="operadora" id="oi2" value="OI"></label>
+                    <label for="claro2" class="claro"><input type="radio" name="operadora" id="claro2" value="CLARO"></label>
+                </li>
+                <li>
+                    <label>Senha</label>
+                    <input type="password" name="senha" id="senha" maxlength="4">
+                    <!--<br/>
+                    <a href="recupera_senha" style="font-size: 9px; color: #000;">Esqueceu a senha?</a>-->
+                </li>
+                <li style="margin-top: -15px;">
+                    <div class="submit" id="submit_index" style="margin:0 auto; float:left;"><input type="submit" value="Fazer Login"></div></li>                
+                <li style="height: 3px">
+                    <a href="" class="some" id="compra_rapida" style="color:red;margin-top: -15px; float: left; margin-bottom: -10px; font: 14px tahoma; text-align: center; display: inline-block; margin-left: -10px; padding-left: 80px;">Ou faça uma recarga rápida</a>
+                </li>
+            </ul></form>
+
+        <!--<h3>Recarregue e pague em até 40 dias</h3>--> 
+        <img src="./index_files/img-cartoes.png" width="244" height="84" alt="" style="margin-top: -28px;">                               
+    </div>
+</div><!-- banner-ext -->
+
+<script type="text/javascript">
+    $(document).ready(function(){   
+        //mostra qual operadora escolheu
+        $("#esc-operadoras label").click(function(){
+            $("#esc-operadoras label").addClass('desativado');
+            $(this).removeClass('desativado');
+            $("#esc-operadoras div span").html($(this).children('input').val());
+        });
+
+        $("#esc-operadoras2 label").click(function(){
+            $("#esc-operadoras2 label").addClass('desativado');
+            $(this).removeClass('desativado');
+            $("#esc-operadoras2 div span").html($(this).children('input').val());
+        });
+    });
+</script>
+		<div id="m-social" class="centralizada">
+	    <a href="http://www.facebook.com/RecarregueFacil" class="face" title="Facebook">Facebook</a>
+	    <a href="http://www.twitter.com/recarreguefacil" class="twitter" title="Twitter">Twitter</a>
+	    <a href="https://plus.google.com/+RecarreguefacilBr/posts" class="gplus" title="Google +">Google +</a>
+	</div>
+
+	<div id="conteudo" class="centro">
+	    <h2 class="chamada">Mais de 12 Milhões de Recargas vendidas<br>para mais de 4 milhões de clientes !</h2>
+	    <div class="promocoes box capa">
+	        <a href="http://www.recarreguefacil.com.br/recarga_da_sorte" title="Clique aqui para saber mais sobre a promoção Recarga da Sorte!" alt="Clique aqui para saber mais sobre a promoção Recarga da Sorte!">Clique aqui para saber mais sobre a promoção Recarga da Sorte!</a>
+	    </div>
+
+	    <div class="promocoes">         
+	        <ul>
+	            <li style="margin-right: 125px;">
+	                <a href="http://www.recarreguefacil.com.br/seguro_residencial" class="box">
+	                    <img width="225" height="208" src="./index_files/seguro-residencial.jpg" class="attachment-promocoes wp-post-image" alt="Seguro residencial">
+	                </a>
+	            </li>
+	            <li style="margin-right: 125px;">
+	                <a href="http://www.recarreguefacil.com.br/dih" class="box">
+	                    <img width="225" height="208" src="./index_files/dih.jpg" class="attachment-promocoes wp-post-image" alt="dih mais plano educacional">
+	                </a>
+	            </li>
+	            <!--<li >
+	                <a href="seguro_facil" class="box">
+	                    <img width="225" height="208" src="images/promos/seguro-facil.jpg" class="attachment-promocoes wp-post-image" alt="Seguro Premiado Facil" />
+	                </a>
+	            </li>-->
+	            <li class="ultimo">
+	                <a href="http://www.recarreguefacil.com.br/carteira_protegida" class="box">
+	                    <img width="225" height="208" src="./index_files/carteira-protegida.jpg" class="attachment-promocoes wp-post-image" alt="Carteira Protegida">
+	                </a>
+	            </li> 
+	        </ul>
+	    </div><!-- promocoes -->
+
+	    <div id="noticias" class="box">
+	        <img class="logo-blog" src="./index_files/logo-blog.jpg" width="126" height="46">
+	        <div class="noticias">
+	            <div class="contents">
+	                <a href="http://www.recarreguefacil.net.br/novo/blog/dicas/confira-tres-bons-tablets-que-o-preco-cabe-em-seu-bolso/">
+	                    <img width="173" height="145" src="./index_files/dicas-tablet-recarregue-facil-173x145.png" class="attachment-noticias-promocoes wp-post-image" alt="dicas tablet recarregue facil">
+	                </a>
+	                <h3>Confira três bons tablets que o preço cabe em seu bolso.</h3>
+	                Os tablets são ótimos aparelhos para baixar aplicativos, assistir vídeos e até mesmo usar como um smartphone. Leves e fáceis de usar e ainda facilita na hora de trabalhar ...              
+	            </div>
+	            <div class="contents">
+	                <a href="http://www.recarreguefacil.net.br/novo/blog/novidades/10-coisas-que-voce-ja-deve-ter-substituido-por-conta-smartphone-2/">
+	                    <img width="217" height="145" src="./index_files/dreamstime_xs_22964955-217x145.jpg" class="attachment-noticias-promocoes wp-post-image" alt="dreamstime_xs_22964955">
+	                </a>
+	                <h3>10 coisas que você já deve ter substituído por conta do smartphone</h3>
+	                Devido a chegada dos smartphones no mercado, o comportamento dos usuários vem se alterando a cada dia. Os aparelhos possuem tantas funcionalidades que hábitos comuns de ...                
+	            </div>
+	        </div> 
+	    </div><!-- noticias -->
+	</div><!-- conteudo -->
+	<div id="footer">
+		<div class="centro">
+			<a class="logo-rodape">Recarregue Fácil</a>		
+			<ul id="social">
+				<li>
+					<a class="googleplus" href="https://plus.google.com/108352117069334850803" target="_blank"></a>
+				</li>
+				<li>
+					<a class="facebook" href="http://www.facebook.com/RecarregueFacil" target="_blank"></a>
+				</li>
+				<li>
+					<a class="twitter" href="https://twitter.com/recarreguefacil" target="_blank"></a>
+				</li>
+				<li>
+					<a class="youtube" href="http://www.youtube.com/channel/UCGZZOtmDffJrv-p88Z_ynig" target="_blank"></a>
+				</li>
+				<li>
+					<a class="noticias" href="http://www.recarreguefacil.net.br/novo/blog/"></a>
+				</li>
+				<li>
+					<a class="contato" href="http://www.recarreguefacil.com.br/recarreguefacil/contato/">Contato</a>
+				</li>
+			</ul>
+			<div class="separador"></div>
+			<div id="copyright">
+				<p>Copyright © 2014 - Recarregue Fácil<br>Todos Direitos Reservados</p>
+				<!-- <a href="#" class="certisign">Certisign</a>
+				<a href="#" class="verisign">Verisign</a>
+				<a href="#" class="ssl">Site Validado</a> -->
+				<a href="http://www.ra3n.com.br/" rel="nofollow" target="_blank" class="ra3n">RA3N Propaganda</a>
+			</div><!-- copyright -->
+		</div>
+	</div>
+
+
+
+<div><div class="sweet-overlay" tabindex="-1"></div><div class="sweet-alert" tabindex="-1"><div class="icon error"><span class="x-mark"><span class="line left"></span><span class="line right"></span></span></div><div class="icon warning"> <span class="body"></span> <span class="dot"></span> </div> <div class="icon info"></div> <div class="icon success"> <span class="line tip"></span> <span class="line long"></span> <div class="placeholder"></div> <div class="fix"></div> </div> <div class="icon custom"></div> <h2>Title</h2><p>Text</p><button class="cancel" tabindex="2">Cancel</button><button class="confirm" tabindex="1">OK</button></div></div></body></html>

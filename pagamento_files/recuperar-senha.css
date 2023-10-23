@@ -1,0 +1,221 @@
+.maisfale #principal {
+    width: 440px;
+    margin-right: 10px;
+}
+
+.autoriza #principal {
+    width: 600px;
+}
+
+#principal label {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+    padding-left:30px;
+}
+#contentArea input{
+margin-bottom:10px;
+}
+#principal #area_botao {
+    clear: both;
+    text-align: center;
+}
+
+#principal h3 {
+    font-size: 1.6em;
+}
+
+#principal h4 {
+    clear: both;
+    font-size: 1.3em;
+    margin-top: 20px;
+}
+
+#principal h5 {
+    clear: both;
+    font-size: 1.3em;
+    margin: 10px 0;
+    color: #8F8466;
+}
+
+#principal ul {
+    margin: 10px 10px 30px 30px;
+}
+
+#principal ul li {
+    list-style: none;
+    padding: 0 0 0 10px;
+    margin: 3px 0 0;
+}
+
+#principal ul ol li {
+    list-style: decimal;
+}
+
+.com_seta, #principal ul.setados li {
+    list-style: none;
+    background: url(https://simg.uol.com.br/sac/2005/seta_verm.gif) no-repeat 0 4px;
+    padding: 0 0 0 10px;
+    margin: 5px 0 0;
+}
+
+/* principal generics styles */
+#principal ul.msg li {
+    background-image: none
+}
+
+#principal ol {
+    margin: 10px 0 0 40px;
+}
+
+#principal table, #principal dl, #principal ul, #principal p, #principal legend, #principal ol {
+    font-size: 12px;
+}
+
+#principal table.informa th {
+    color: #8F8466;
+    text-align: left;
+    padding: 3px 20px 3px 0;
+    font-weight: normal;
+    border-bottom: 1px solid #C7C1B2;
+}
+
+#principal table.informa td {
+    border-bottom: 1px solid #C7C1B2;
+    padding: 3px 0;
+}
+
+/* info/seguran?a */
+.seguranca #principal ul {
+    margin: 10px 10px 30px 30px;
+}
+
+.seguranca #principal ul li {
+    list-style: square;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+#outer #principal #chapeu h2 {
+    color: #014E9B;
+}
+#principal #contentArea{
+width:360px;
+float:left;
+text-align:right;
+}
+
+#principal #informacoes {
+margin:40px 0px 30px 10px;
+    float: left;
+    margin-right: 70px;
+    padding: 10px;
+    background-color: #FFFFC6;
+    width: 270px;
+    font-size: 11px;
+}
+
+#contentArea {
+    margin-top: 40px;
+}
+
+#turing small {
+    font-size: 12px;
+}
+
+.refresh-turing, .hear-turing {
+    padding-top: 7px
+}
+
+#turing {
+    width: 450px;
+    height: 140px;
+    margin: auto;
+	padding-bottom:60px;
+}
+
+#turing dt, #turing dd {
+    display: inline;
+}
+
+#principal dt, #turing dt {
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 5px;
+    position: relative;
+}
+#turing label{
+font-size:15px;
+padding:0px;
+}
+#turing dl {
+padding-top:10px;
+}
+#turing dt {
+    margin-left: 50px;
+    font-weight: normal !important;
+}
+
+#imgturing {
+    border: 1px solid #000;
+    margin-right: 15px
+}
+#bt-action {
+    padding-top: 20px;
+clear:both;
+padding-left:200px;
+*margin-bottom:20px;
+}
+
+#turing button {
+    float: left;
+    margin-right: 5px;
+    width: 30px;
+height:30px;
+text-align:center;
+}
+
+#turing small {
+    color: #000;
+    font-size: 1.2em
+}
+
+#bt-action button {
+    width: 80px !important;
+	text-transform:capitalize;
+}
+
+#imgturing {
+    border: 1px solid #ccc;
+    float: left;
+    margin-right: 15px
+}
+
+#turing p {
+    font-size: 8px;
+}
+
+#turing dt {
+    font-size: 13px;
+}
+
+
+#principal legend {
+    padding: 10px;
+    font-weight: bold;
+}
+#boxConclusao{
+height:30px;
+padding-left:70px;
+padding-top:10px;
+font-size:11px;
+font-weight:bold;
+}
+#boxConclusao.ok{
+background-repeat:no-repeat;
+background-position: 20px;
+min-height:50px;
+}
+#boxConclusao p{
+padding-top:3px;
+}

@@ -1,0 +1,308 @@
+
+
+/* selectors */
+
+* { outline: none; }
+body  { margin: 0px 0px 0px 0px; font: normal 10px Arial, Verdana, Geneva, Helvetica, sans-serif; }
+img { border: none; margin: 0px 0px 0px 0px; }
+a { text-decoration: none; }
+br { clear: none; }
+
+	#header-sac { width: 760px; height: 50px; margin: 1px 0px 0px 0px; font: bold 10px Verdana, Arial, Geneva, Helvetica, sans-serif; text-align: right; background: #FFFFFF url('https://simg.uol.com.br/sac/images/bg-sac-header.jpg') no-repeat scroll 0px 0px; }
+		#header-sac a { color: #000000; }
+		#header-sac a:hover { text-decoration: underline; }
+
+		#header-sac #home-url { float: left; width: 195px; height: 50px; }
+			#header-sac #home-url:hover { cursor: pointer; }
+
+		#header-sac #header-actions { float: left; width: 565px; height: 20px; margin: 8px 0px 0px 0px; }
+			#header-sac #header-actions #bg { width: 565px; height: 20px; padding: 1px 0px 0px 0px; background: transparent url('https://simg.uol.com.br/sac/2005/ico-sair.gif') no-repeat scroll 526px 0px; }
+				#header-sac #header-actions #bg #welc { margin: 0px 30px 0px 0px; }
+
+		#header-sac #header-links, #header-links a { color: #7D7D7D; }
+			#header-sac #header-links #bar-vert { float: right; width: 10px; height: 9px; border-left: 1px solid #7D7D7D; margin: 3px 0px 0px 12px; }
+			#header-links #link-home, #header-links #link-boletins, #header-links #link-duvidas { float: right; height: 10px; }
+
+
+	/* home */
+
+	#home { font: normal 11px Arial, Verdana, Geneva, Helvetica, sans-serif; width: 760px; height: 650px; }
+	#home a { color: #000000; }
+	#home a:hover { text-decoration: underline; }
+
+		/* home : esq */
+
+		#home #box-content-left { float: left; width: 520px; height: auto; margin: 13px 0px 0px 0px; }
+
+			/* home : auto-atendimento */
+
+			#home #box-content-left #auto { width: 513px; height: 346px; margin: 0px 0px 15px 0px; border-bottom: 1px solid #B7D7F5; border-right: 1px solid #B7D7F5; border-left: 1px solid #B7D7F5; background: #FFFFFF url('https://simg.uol.com.br/sac/images/bg-sac-auto.jpg') no-repeat scroll 0px 50px; }
+				#home #box-content-left #auto #top { float: left; }
+
+					#home #box-content-left #auto #top #tit { width: 513px; height: 33px; background: #FFFFFF url('https://simg.uol.com.br/sac/images/sprite-home.jpg') no-repeat scroll 0px -23px; }
+						#home #box-content-left #auto #top #tit #txt { padding: 5px 0px 0px 25px; font-weight: bold; font-size: 16px; color: #FFFFFF; }
+
+					#home #box-content-left #auto #top #host { float: left; position: absolute; width: 135px; height: 30px; margin: 15px 0px 0px 337px; padding: 5px 10px 0px 0px; text-align: right; border: 1px solid #D6EAED; font-weight: bold; }
+						#home #box-content-left #auto #top #host a { text-decoration: none; }
+
+					#home #box-content-left #auto #top #welc { float: left; width: 300px; height: 25px; margin: 10px 0px 45px 20px; }
+						#home #box-content-left #auto #top #welc #msg { margin: 5px 0px 0px 0px; }
+
+					#home #box-content-left #auto #conta { float: left; margin: 0px 0px 0px 20px; width: 230px; height: 210px; background: transparent url('https://simg.uol.com.br/sac/images/icon-home-conta.gif') no-repeat scroll 0px 0px; }
+						#home #box-content-left #auto #conta ul li, #home #box-content-left #auto #cobranca ul li { padding: 0px 0px 0px 9px; font-size: 12px; line-height: 18px; background: transparent url('https://simg.uol.com.br/sac/images/sprite-sac-elements.gif') no-repeat scroll 0px 0px; }
+						#home #box-content-left #auto #conta ul li { background-position: 0px 4px; }
+
+					#home #box-content-left #auto #cobranca { float: left; margin: 0px 0px 0px 25px; width: 220px; height: 210px; background: transparent url('https://simg.uol.com.br/sac/images/icon-home-cobranca.gif') no-repeat scroll 0px 0px; }
+						#home #box-content-left #auto #cobranca ul li { background-position: 0px -13px; }
+						#home #box-content-left #auto #conta #tit, #home #box-content-left #auto #cobranca #tit { margin: 15px 0px 30px 70px; font-weight: bold; font-size: 14px; }
+
+						#home #box-content-left #auto #afiliados { width: 180px; height: 20px; margin: 20px 0px 0px 0px; text-align: center; }
+						#home #box-content-left #auto #confira { width: 180px; height: 20px; margin: 15px 0px 0px 0px; padding: 5px 0px 0px 10px; border: 1px solid #5F95C7; }
+
+			/* home : dúvidas */
+
+			#home #box-content-left #duvidas { width: 513px; height: 103px; margin: 0px 0px 15px 0px; background: #F5F6F1 url('https://simg.uol.com.br/sac/images/icon-question.jpg') no-repeat scroll 17px 22px; border-left: 1px solid #F8E8A8; border-right: 1px solid #F8E8A8; border-bottom: 1px solid #F8E8A8; border-top: 4px solid #FFC600; }
+
+				#home #box-content-left #duvidas #left { float: left; width: 230px; height: 50px; margin: 20px 0px 0px 80px; line-height: 17px; }
+					#home #box-content-left #duvidas #left strong { font-size: 14px; line-height: 20px; }
+
+				#home #box-content-left #duvidas #right { float: left; width: 195px; height: 75px; margin: 15px 0px 0px 0px; }
+					#home #box-content-left #duvidas #right { line-height: 16px; }
+					#home #box-content-left #duvidas #right ul li  { padding: 0px 0px 0px 9px; background: transparent url('https://simg.uol.com.br/sac/images/sprite-sac-elements.gif') no-repeat scroll 0px 4px; }
+
+			/* home : promoções */
+
+			#home #box-content-left #promocoes { width: 513px; height: 148px; background-color: #F5F6F1; border-left: 1px solid #D6EAED; border-right: 1px solid #D6EAED; }
+				#home #box-content-left #promocoes #tit { width: 513px; height: 22px; background: #FFFFFF url('https://simg.uol.com.br/sac/images/sprite-home.jpg') no-repeat scroll 0px 0px; }
+					#home #box-content-left #promocoes #tit #txt { padding: 2px 0px 0px 25px; font-weight: bold; font-size: 14px; color: #000000; }
+
+				#home #box-content-left #promocoes #box { width: 513px; height: 113px; }
+				#home #box-content-left #promocoes #btn { width: 513px; height: 17px; }
+					#home #box-content-left #promocoes #btn #sin { float: left; width: 363px; height: 16px; background-color: #FFFFFF; }
+					#home #box-content-left #promocoes #btn #next, #home #box-content-left #promocoes #btn #prev { float: left; width: 75px; height: 17px; padding: 1px 0px 0px 0px; font-size: 10px; text-align: center; background: #FFFFFF url('https://simg.uol.com.br/sac/images/sprite-sac-elements.gif') no-repeat scroll 0px 0px; }
+					#home #box-content-left #promocoes #btn #prev { background-position: -1px -73px; }
+					#home #box-content-left #promocoes #btn #next { background-position: -1px -98px; }
+
+			#promprod { height: 101px; padding: 0px 0px 0px 0px; margin: 0px 0px 10px 0px; background: #F5F6F1 url('https://simg.uol.com.br/sac/images/bg-sac-promocoes.jpg') no-repeat scroll 0 2px; }
+			#btnav { background-color: #FFFFFF; margin: 0px 0px 0px 0px; }
+				#img01, #img02, #img03, #img04 { width: 510px; height: 94px; overflow: hidden; }
+				#img01 div, #img02 div, #img03 div, #img04 div { float:left; width: 250px; height: 84px; margin-left: 4px; }
+
+					#img01 #img01left { background: url('https://simg.uol.com.br/sac/images/boxpromo-img01left.jpg') center no-repeat; }
+					#img01 #img01right { background: url('https://simg.uol.com.br/sac/images/boxpromo-img01right.jpg') center no-repeat; }
+
+					#img02 #img02left { background: url('https://simg.uol.com.br/sac/images/boxpromo-img02left.jpg') center no-repeat; }
+					#img02 #img02right { background: url('https://simg.uol.com.br/sac/images/boxpromo-img02right.jpg') center no-repeat; }
+
+					#img03 #img03left { background: url('https://simg.uol.com.br/sac/images/boxpromo-img03left.jpg') center no-repeat; }
+					#img03 #img03right { background: url('https://simg.uol.com.br/sac/images/boxpromo-img03right.jpg') center no-repeat; }
+
+					#img04 #img04left { background: url('https://simg.uol.com.br/sac/images/boxpromo-img04left.jpg') center no-repeat; }
+					#img04 #img04right { background: url('https://simg.uol.com.br/sac/images/boxpromo-img04right.jpg') center no-repeat; }
+
+		/* home : dir */
+
+		#home #box-content-right { float: left; width: 230px; height: auto; margin: 14px 0px 0px 10px; }
+
+			/* home : acesso */
+
+			#home #box-content-right #acesso { width: 228px; height: 20px; margin: 0px 0px 15px 0px; }
+				#home #box-content-right #acesso #jumpform #url { width: 228px; padding: 0px 0px 0px 5px; font: normal 12px Verdana, Arial, Geneva, Helvetica, sans-serif; color: #000000; }
+					#home #box-content-right #acesso #jumpform option.link { padding: 0px 0px 0px 10px; font: normal 12px Verdana, Arial, Geneva, Helvetica, sans-serif; color: #000000; }
+
+			/* home: autenticacao */
+
+			#home #box-content-right #autenticacao { width: 228px; height: 100px; margin: 0px 0px 15px 0px; background-color: #F5F6F1; border-left: 1px solid #D6EAED; border-right: 1px solid #D6EAED; border-bottom: 1px solid #D6EAED; border-top: 4px solid #5AA5E9; }
+				#home #box-content-right #autenticacao #fields { margin: 15px 0px 0px 20px; }
+					#home #box-content-right #autenticacao #fields form fieldset { margin: 0px; padding: 0px; }
+						#home #box-content-right #autenticacao #fields form fieldset label.labels { text-transform: uppercase; font-weight: bold; }
+						#home #box-content-right #autenticacao #fields form fieldset #email { width: 140px; height: 12px; margin: 0px 0px 4px 0px; font-size: 11px; }
+						#home #box-content-right #autenticacao #fields form fieldset #senha { width: 80px; height: 12px; margin: 0px 0px 6px 0px; font-size: 11px; }
+						#home #box-content-right #autenticacao #fields form fieldset #ok { width: 57px; height: 23px; }
+						#home #box-content-right #autenticacao #fields #esqueceu { margin: 6px 0px 0px 0px; }
+
+			#all dl.msg dt { font-size: 16px; }
+			#all dl.msg dd { color: #000000; }
+			#all dl.alert { border-color: #FDF9EC; background: #FDF9EC url('https://simg.uol.com.br/p/g/alertas/img/alerts-large-stairs.gif') no-repeat scroll -637px -150px; }
+
+			/** html #all ul.msg, html #all dl.msg { height: 68px; }*/
+			#all ul.msg, #all dl.msg { min-height: 68px; }
+
+			/* home : novidades */
+
+			#home #box-content-right #novidades { width: 228px; height: 104px; margin: 0px 0px 15px 0px; background-color: #F5F6F1; border-left: 1px solid #D6EAED; border-right: 1px solid #D6EAED; border-bottom: 1px solid #D6EAED; border-top: 4px solid #5AA5E9; }
+				#home #box-content-right #novidades #txt { margin: 25px 0px 0px 20px; line-height: 16px; }
+					#home #box-content-right #novidades #txt strong { font-size: 14px; line-height: 20px; }
+
+			/* home : clube */
+
+			#home #box-content-right #clube { width: 228px; height: 368px; background: #FFFFFF url('https://simg.uol.com.br/sac/images/bg-clube.jpg') no-repeat scroll 0px 0px; border: 1px solid #E1E1D5; }
+				#home #box-content-right #clube #logo { width: 228px; height: 88px; background: transparent url('https://simg.uol.com.br/sac/images/logo-clube.jpg') no-repeat scroll 30px 15px; }
+				#home #box-content-right #clube #logo.visitante { background: transparent url('https://simg.uol.com.br/sac/images/logo-clube-visitante.jpg') no-repeat scroll 30px 15px; }
+				#home #box-content-right #clube #logo.vip { background: transparent url('https://simg.uol.com.br/sac/images/logo-clube-vip.jpg') no-repeat scroll 30px 15px; }
+				#home #box-content-right #clube #logo.acesso { background: transparent url('https://simg.uol.com.br/sac/images/logo-clube-acesso.jpg') no-repeat scroll 30px 15px; }
+				#home #box-content-right #clube #logo.assinante { background: transparent url('https://simg.uol.com.br/sac/images/logo-clube-assinante.jpg') no-repeat scroll 30px 15px; }
+				#home #box-content-right #clube #melhor { width: 208px; height: 60px; padding: 0px 0px 0px 20px; }
+				#home #box-content-right #clube #confira { width: 223px; height: 20px; padding: 25px 0px 0px 5px; }
+				#home #box-content-right #clube #cupons, #home #box-content-right #clube #cuponsjson { width: 228px; height: 150px; padding: 20px 0px 0px 0px; text-align: center; }
+				#home #box-content-right #clube #cupons #txt1, #home #box-content-right #clube #cupons #txt2,
+				#home #box-content-right #clube #cuponsjson  #txt1, #home #box-content-right #clube #cuponsjson #txt2 { margin-bottom: 30px; }
+				#home #box-content-right #clube #cuponsjson { display: none; }
+
+			#home #box-content-right #clubedef { width: 228px; height: 247px; background: #FFFFFF url('https://simg.uol.com.br/sac/images/bg-clube-def.jpg') no-repeat scroll 0px 0px; border: 1px solid #E1E1D5; }
+				#home #box-content-right #clubedef #logo { width: 228px; height: 88px; background: transparent url('https://simg.uol.com.br/sac/images/logo-clube.jpg') no-repeat scroll 30px 20px; }
+				#home #box-content-right #clubedef #saiba { margin: 55px 10px 10px 20px; line-height: 15px; }
+
+			/* home : fones */
+
+			#home #box-content-right #fones { width: 228px; height: 86px; margin: 16px 0px 0px 0px; background-color: #F5F6F1; border-left: 1px solid #D6EAED; border-right: 1px solid #D6EAED; border-bottom: 1px solid #D6EAED; border-top: 4px solid #5AA5E9; }
+				#home #box-content-right #fones #txt { margin: 16px 0px 0px 20px; line-height: 16px; }
+					#home #box-content-right #fones #txt strong { font-size: 14px; line-height: 20px; text-transform: uppercase; }
+					#home #box-content-right #fones #txt a { font-weight: bold; }
+
+		/* home : bottom */
+
+		#box-content-bottom { width: 760px; height: 40px; margin: 12px 0px 15px 0px; background-color: #F5F6F1; }
+			#box-content-bottom.highlight { width: 756px; border: solid 2px #FFC600; }
+			#box-content-bottom #fones-suporte { margin: 0px 0px 0px 0px; font-size: 11px; text-align: center; }
+				#box-content-bottom #fones-suporte strong { font-size: 14px; }
+
+
+	/* internas */
+
+	#top-breadcrumb { width: 748px; height: 14px; margin: 10px 0px 0px 0px; padding: 0px 0px 0px 10px; font: normal 10px Verdana, Arial, Geneva, Helvetica, sans-serif; color: #7D7D7D; background: transparent url('https://simg.uol.com.br/sac/2005/seta.gif') no-repeat scroll 0px 3px; }
+		#top-breadcrumb a:hover { text-decoration: underline; color: #7D7D7D; }
+
+	#naveg a { text-decoration: none; }
+	#naveg a:hover { text-decoration: underline; color: #7D7D7D; }
+	#naveg #sair, #naveg br { display: none; }
+
+	#outer { margin: 5px 0px 20px 0px; }
+		#outer #main { width: 588px; }
+			#outer #main.ajuda, #outer #main.ajuda p { font: normal 12px Arial, Verdana, Geneva, Helvetica, sans-serif; }
+			#outer #main h1 { font-weight: normal; line-height: 30px; }
+			#outer #main #chapeu h2 { color: #014E9B; }
+			#outer #main div.nota { font: normal 11px Arial, Verdana, Geneva, Helvetica, sans-serif; color: #7D7D7D; }
+
+			#outer #main #box-aviso { margin: 20px 0px 0px -40px; width: 513px; height: 132px; background: #FFF9E5 url('https://simg.uol.com.br/sac/images/bg-aviso-FFC600.gif') no-repeat scroll 0px 0px; }
+				#outer #main #box-aviso #msg { padding: 20px 0px 0px 20px; width: 470px; height: 80px; font-size: 11px; }
+					#outer #main #box-aviso #msg #title { margin: 0px 0px 20px 0px; font-size: 14px; font-weight: bold; }
+					#outer #main #box-aviso #msg #txt strong { font-size: 14px; font-weight: bold; }
+
+		/* menu */
+
+		#outer #menu { width: 160px; margin: 4px 0px 0px 0px; }
+			#outer #menu ul li { border: none; background-color: #F5F5F5; background-image: none; border-bottom: 1px solid #A3AAAF; }
+			#outer #menu ul li:hover { background-color: #E2EEFB; }
+				#outer #menu ul li.m_chp.first { border-top: 1px solid #A3AAAF; }
+				#outer #menu ul li.m_chp { display: block; background-color: #CBD5DB; }
+				#outer #menu ul li a { padding: 5px 0px 5px 7px; }
+				#outer #menu ul li.m_chp, #outer #menu li a { color: #000000; }
+				#outer #menu ul li.item a:hover { background-color: #E4F0FB; }
+
+		#outer #btn-left-ajuda { background: #FFF9E5 url('https://simg.uol.com.br/sac/images/icon-question-min.gif') no-repeat scroll 5px 2px; }
+		#outer #btn-left-atend { background: #FFF9E5 url('https://simg.uol.com.br/sac/images/icon-chat-min.gif') no-repeat scroll 5px 2px; }
+
+		#outer #btn-left-ajuda, #outer #btn-left-atend { width: 115px; height: 30px; margin: 20px 0px 0px 0px; padding: 4px 0px 0px 40px; border: 1px solid #FFC600; color: #0059B2; font: bold 10px Verdana, Arial, Geneva, Helvetica, sans-serif; }
+
+		.alterarsenha #menu li#alterarsenha a, .recuperarsenha #menu li#recuperarsenha a, .alterarplano #menu li#alterarplano a, .vercontrato #menu li#vercontrato a,
+		.horasconexao #menu li#horasconexao a, .extrato #menu li#extrato a, .quitar #menu li#quitar a, .dadoscobranca #menu li#dadoscobranca a,
+		.dadosrecebe #menu li#dadosrecebe a, .ver_ad #menu li#ver_ad a, .veradicionais #menu li#ver_ad a, .dadospessoais #menu li#dadospessoais a, .enderecoacesso #menu li#enderecoacesso a,
+		.contrato #menu li#ver_contrato a, .horas #menu li#horas a, .adicionais #menu li#adicionais a, .regras #menu li#regras a, .rel_invest #menu li#rel_invest a,
+		.anuncie_uol #menu li#anuncie_uol a, .trabalhe_uol #menu li#trabalhe_uol a, .cancelar #menu li#cancelar a, .detalhes #menu li#detalhes a,
+		.faq_cobranca #menu li#faq_cobranca a, .faq_conexao #menu li#faq_conexao a, .como_funciona_cobranca #menu li#como_funciona_cobranca a,
+		.config_email #menu li#config_email a, .config_modem #menu li#config_modem a, .ipass #menu li#ipass a,
+		.cartilha_seguranca #menu li#cartilha_seguranca a { background-color: #E4F0FB; font-weight: bold; }
+
+		.cx_ext #menu li#cx_ext a, .cx_brasil #menu li#cx_brasil a, .tel_brasil #menu li#tel_brasil a, .aprenda #menu li#aprenda a, .cx_ext #menu li#cx_ext a,
+		.as_nif #menu li#as_nif a, .como_func #menu li#como_func a, .formas #menu li#formas a, .atrasados #menu li#atrasados a, .seguranca #menu li#seguranca a,
+		.antispam #menu li#antispam a, .acelera #menu li#acelera a, .configure #menu li#configure a, .cartilha #menu li#cartilha a  { background-color: #E4F0FB !important; }
+
+		.receber #menu li#receber a, .arquivo #menu li#arquivo a, .ajuda #menu li#ajuda a  { background-color: #E4F0FB !important; }
+
+		.all_address dl { float: none !important; }
+		.campo_tit { float: none; margin-right: 0px; }
+		.all_address dl.col_middle_special dt { width: auto !important; }
+		.alterarplano #box2 .header_plan, .header_choose { margin: 35px 0 5px !important; }
+
+	/* acesso */
+
+	#auth { width: 760px; height: 355px; margin: 10px 0 35px 0; }
+
+		#auth #col-left { float: left; width: 509px; height: 358px; border-left: 1px solid #b7d7f5; border-right: 1px solid #b7d7f5; border-bottom: 1px solid #b7d7f5; background: transparent url('https://simg.uol.com.br/sac/images/acesso/col-left-bg.jpg') repeat-x scroll 0 10px; }
+		* html #auth #col-left { height: 362px; }
+			#auth #col-left #brdr { width: 509px; height: 4px; background: transparent url('https://simg.uol.com.br/sac/images/acesso/col-left-brdr.jpg') no-repeat scroll 0 0; }
+			#auth #col-left #cont { width: 509px; height: 343px; font: normal 10px Arial, Helvetica, sans-serif; }
+				#auth #col-left #cont #title { margin: 12px 0 0 25px; font-size: 20px; color: #4a88c3; }
+				#auth #col-left #cont #txt { margin: 15px 0 0 25px; font-size: 14px; }
+				#auth #col-left #cont #box-options { width: 484px; height: 265px; margin: 18px 0 0 25px; font-size: 14px; }
+					#auth #col-left #cont #box-options div.opt { width: 429px; height: 30px; margin: 15px 0 0 0; padding: 8px 0 0 55px; background-color: gray; }
+						#auth #col-left #cont #box-options #opt-atualizar { background: transparent url('https://simg.uol.com.br/sac/images/acesso/icon-atualizar.gif') no-repeat scroll 0 0; }
+						#auth #col-left #cont #box-options #opt-quitar { background: transparent url('https://simg.uol.com.br/sac/images/acesso/icon-quitar.gif') no-repeat scroll 0 0; }
+						#auth #col-left #cont #box-options #opt-alterar { background: transparent url('https://simg.uol.com.br/sac/images/acesso/icon-alterar.gif') no-repeat scroll 0 0; }
+						#auth #col-left #cont #box-options #opt-duvidas { background: transparent url('https://simg.uol.com.br/sac/images/acesso/icon-duvidas.gif') no-repeat scroll 0 0; }
+						#auth #col-left #cont #box-options #opt-ofertas { background: transparent url('https://simg.uol.com.br/sac/images/acesso/icon-ofertas.gif') no-repeat scroll 0 0; }
+
+		#auth #col-right #box-form { float: left; width: 236px; height: 207px; margin: 0 0 0 11px; border-top: 4px solid #5aa5e9; border-left: 1px solid #d6eaed; border-right: 1px solid #d6eaed; border-bottom: 1px solid #d6eaed; background-color: #f5f6f1; }
+			#auth #col-right #box-form #title { width: 204px; height: 43px; margin: 12px 0 0 32px; font-size: 20px; }
+			#auth #col-right #box-form form label.email { margin: 0 0 0 7px; }
+			#auth #col-right #box-form form label.senha { margin: 12px 0 0 7px; }
+			#auth #col-right #box-form form label.email, #auth #col-right #box-form form label.senha { display: block; width: 219px; height: 14px; font-size: 14px; }
+			#auth #col-right #box-form form input#email { width: 213px; height: 22px; }
+			#auth #col-right #box-form form input#senha { float: left; width: 131px; height: 23px; }
+			#auth #col-right #box-form form input#email, #auth #col-right #box-form form input#senha { margin: 3px 0 0 7px; padding: 4px 0 0 2px; border: 1px solid #7f9db9; font-size: 16px; }
+			#auth #col-right #box-form form input.botao-ok { width: 77px; height: 29px; margin: 3px 0 0 5px; }
+			#auth #col-right #box-form form a#forget { display: block; width: 219px; height: 12px; margin: 2px 0 0 7px; font-size: 12px; color: #025ec7; }
+
+		#auth #col-right #box-alert { float: left; width: 238px; height: 139px; margin: 8px 0 0 11px; background-color: #ffffe8; }
+			#auth #col-right #box-alert #txt { width: 161px; height: 90px; margin: 24px 0 0 12px; padding: 0 0 0 34px; font-size: 12px; background: transparent url('https://simg.uol.com.br/sac/images/acesso/icon-lamp-23x23.jpg') no-repeat scroll 0 0; }
+				#auth #col-right #box-alert #txt span.gray { color: #696969; }
+
+	/* footer */
+
+	#footer { margin: 0px 0px 50px 0px; }
+
+	#footer, #footer a { font: normal 9px Verdana, Arial, Geneva, Helvetica, sans-serif; color: #000000; text-align: center; }
+		#footer a:hover, #footer #privac a.under { text-decoration: underline; }
+
+			#footer #rodape { display: none; margin: 0px 0px 10px 0px; }
+			.home #footer #rodape { display: block; }
+
+		#footer #brdr { margin: 0px 0px 15px 130px; width:500px; border-top: 1px solid #000000; }
+		.home #footer #brdr { display: none; }
+
+	#box-content-bottom #fones-suporte a { font: normal 11px Arial, Verdana, Geneva, Helvetica, sans-serif; font-weight: bold; color: #000000; text-align: center; }
+
+	#fones-modal-msg { background: url('https://simg.uol.com.br/sac/images/bg-lightbox-dialog.jpg') no-repeat scroll 0px 0px; }
+
+		div.ui-widget-header, div.ui-widget-content, div.ui-widget-overlay { background-image: none; overflow: hidden !important; }
+		div.ui-dialog { padding: 0px; }
+		div.ui-widget-content { border: 0px; }
+		div.ui-widget-header { background-color: #FFFFFF; }
+		div.ui-widget-overlay { background-color: #000000; }
+
+		#fones-modal-msg, div.ui-dialog-titlebar { display: none; }
+		#fones-modal-msg #bt-close { margin: -1px 0px 0px 0px; width: 426px; border: none; text-align: right; outline: none;  }
+		#fones-modal-msg #msg { width: 420px; font: normal 11px Arial, Verdana, Geneva, Helvetica, sans-serif; text-align: center; }
+		#fones-modal-msg #msg #fale { margin: 25px 0px 0px 0px; font-size: 16px; }
+		#fones-modal-msg #msg #numeros { margin: 10px 0px 35px 0px; font-size: 16px; }
+
+	div.ui-corner-all { -moz-border-radius: 0px; }
+
+.onoff { display: none; }
+
+.nml {margin-left:0;} /* sem margem esquerda */
+
+
+/* mensagem de aviso sobre os campos de CPF e CNPJ */
+.msgBankDebitCpfCnpj p { /*width: 400px;*/ font-size: 11px; background: #fdf9ec url(https://simg.uol.com.br/alertas/m-alerta.gif) no-repeat scroll 10px 12px; /*margin-left: 10px!important;*/ margin-right: 25px!important; padding: 10px 10px 10px 45px!important; }
+
+
+/* link de comprovante de quitação */
+#lnk-debt-declarat { margin-bottom: -15px!important; }
+.ldd-right { text-align: right!important; }
+.ldd-left { text-align: left!important; }
+
+#faleconosco { padding-bottom: 5px!important; }
+
+

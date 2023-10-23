@@ -1,0 +1,461 @@
+@import url('https://simg.uol.com.br/nocache/mensagens/mensagens.css');
+/* Mensagens globais, msg, alert, importadas */
+
+* {margin:0;}
+body {background: #fff; font: x-small arial, verdana, sans-serif; padding: 5px 10px; margin: 0; color:#000;}
+
+img, fieldset {border:0;}
+.skip {display:none;}
+	/* \*/ * html body {font-size:x-small;fo\nt-size:x-small; } /* */
+/* listas */ ul, ol, dl, dt, dd {padding-left:0;} ul li {list-style:none;} ol li {list-style:decimal inside;}
+
+img, fieldset {border:none;}
+br {clear:both;}
+a {color:#0E77C0;} 
+
+fieldset {
+margin-bottom: 30px;
+padding-left: 20px;
+}
+
+#outer {width: 760px; padding:5px 0 20px 0;}
+#main {width: 598px;}
+#menu {width: 152px;}
+#outer, #menuVert {float: left;}
+#main {float: right;}
+
+#header {
+	border-top: 1px solid #fff;
+	width: 760px;
+	background: #fff url(https://simg.uol.com.br/sac/2005/bgheader.jpg) no-repeat 100% 0;
+	float: left;
+}
+
+h1 {
+	width: 380px;
+	font-size: 1.6em;
+	margin: 0;
+	float: left;
+}
+
+h1 a {
+	display: block;
+	width: 380px;
+	height: 48px;
+	background: url(https://simg.uol.com.br/sac/2007/sacheader.jpg) no-repeat 0 0;
+	margin: 0;
+	text-decoration: none;
+	text-indent: -9999px;
+}
+
+#header p {float: right; text-align: right; width: 390px; margin: 0; vertical-align: bottom; padding-top: 10px; padding-right: 5px;}
+#header p * {vertical-align: middle;}
+
+
+/* migalha de pao */
+#naveg {clear:both; font: normal 1em verdana;	color:#7D7D7D; padding:0; width:760px; padding:5px 0 15px;}
+#naveg a {color:#808080;}
+#naveg #estou {float:left; background: url(https://simg.uol.com.br/sac/2005/seta.gif) no-repeat 1px 50%; padding-left:8px;}
+#naveg #local {background: url(https://simg.uol.com.br/sac/2005/seta2.gif) no-repeat 2px; padding-left:13px; font-weight: bold;}
+#naveg #sair {float:right; background: url(https://simg.uol.com.br/sac/2005/ico-sair.gif) no-repeat 2px; padding-left: 20px;}
+#naveg #sair a {color: #0066CC; font-size: 1.1em}
+
+/* titulo da pagina */
+h2 {font: normal 20px arial;color: #E0AC00;display:inline;padding-right: 10px;background-color:#fff;}
+#chapeu {background: url(https://simg.uol.com.br/sac/2005/bkg_chp.gif) repeat-x 50%; margin-bottom: 10px;}
+
+/* menu barra */
+#menuBar {clear: both;}
+#menuBar, 
+#menuBar ul, 
+#menuBar li 	{float:left;}
+#menuBar ul {width:760px; background:#EBEADE url(https://simg.uol.com.br/sac/2005/aba_ul_2.gif);}
+#menuBar ul, #menuBar li {list-style:none;}
+#menuBar li {padding:0 0 0 1px; font:bold 1em Verdana, Arial, sans-serif; text-transform:uppercase; background:url(https://simg.uol.com.br/sac/2005/aba_li.gif) no-repeat;}
+#menuBar li a {color:#4E4734; display:block; padding:10px 12px 9px 11px; text-decoration:none; border-bottom: 1px solid #ABAA8A; background:url(https://simg.uol.com.br/sac/2005/aba_li.gif) no-repeat right top;}
+#menuBar li a:hover, #menuBar li:hover a {background: url(https://simg.uol.com.br/sac/2005/aba_li.gif) 100% -100px; color:#4E4734; border-bottom: 1px solid #D5D1B6;}
+#mAS,
+#mTD,
+#mBO {background-position:0 -100px;}
+#mAS a,
+#mTD a,
+#mBO a {background-position:100% -100px; color:#000; padding-bottom:10px; border-bottom:0;}
+
+.assinatura #mAS a,
+.duvidas #mTD a,
+.boletins #mBO a {
+	background: url(https://simg.uol.com.br/sac/2005/aba_selec.gif) repeat-x 0 0 white;
+	color: #8F8466;
+	border-bottom: 1px solid white;
+}
+/* fim menu barra */
+
+
+/* menu lateral */
+
+#menu ul,
+#menu li {padding: 0; margin: 0; list-style: none;}
+#menu li {line-height: 1; border-top:solid 1px #BDBDA4; background: url(https://simg.uol.com.br/sac/2005/bkg_menu_li.gif) repeat-x left top;}
+* html #menu li {background-position: 1px left;}
+#menu li a {color: #4E4734; text-decoration: none; font: normal 1em verdana, sans-serif; display: block; padding: 5px 0px 5px 10px;}
+#menu li a:hover, #menu li:hover a {background-color:#FAECC8; color:#4E4734;text-decoration: underline;}
+#menu li.m_chp, #menu li.m_chp1, #menu li.m_chp2, #menu li.m_chp3 {
+	background-image:none;
+	border-top:solid 1px #BDBDA4;
+	background-color: #DBD4CB;
+	text-transform: uppercase;
+	font:bold 1em verdana, sans-serif;
+	color: #4C4634;
+	padding: 4px 0 4px 6px;
+	display: none;
+}
+#menu .last {border-bottom:solid 1px #BDBDA4;}
+
+#menu #fale {
+	margin-top: 20px; 
+	background: #F0F0E7 url(https://simg.uol.com.br/sac/2005/ico_atend.gif) no-repeat 5px 3px;
+	float: left;
+	width: 100%;
+	border: solid 1px #BDBDA4; 
+}
+
+#menu #fale a {
+	padding: 5px 0 5px 30px;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+	display: block;
+	}
+
+
+#menu #sair-menu {float:right; background: url(https://simg.uol.com.br/sac/2005/ico-sair.gif) no-repeat 2px; padding-left: 20px;margin-top:5px;}
+	
+#menu #fale span {
+	text-decoration: underline;
+	font: normal 1.1em arial, sans-serif;
+	color:#0066CC;
+	}
+
+#menu #doubt {
+	margin-top: 20px; 
+	background: #F0F0E7 url(https://simg.uol.com.br/sac/2007/doubt.gif) no-repeat 5px 3px;
+	float: left;
+	width: 100%;
+	border: solid 1px #BDBDA4; 
+}
+
+#menu #doubt a {
+	padding: 5px 0 5px 30px;
+	display: block;
+    font: bold 11px arial, sans-serif;
+    text-decoration: none;
+	color:#0066CC;
+	}
+
+.alterarsenha #menu li#alterarsenha a,
+.recuperarsenha #menu li#recuperarsenha a,
+.alterarplano #menu li#alterarplano a,
+.vercontrato #menu li#vercontrato a,
+.horasconexao #menu li#horasconexao a,
+.extrato #menu li#extrato a,
+.quitar #menu li#quitar a,
+.dadoscobranca #menu li#dadoscobranca a, 
+.dadosrecebe #menu li#dadosrecebe a, 
+.veradicionais #menu li#ver_ad a, 
+.dadospessoais #menu li#dadospessoais a, 
+.enderecoacesso #menu li#enderecoacesso a, 
+.contrato #menu li#ver_contrato a, 
+.horas #menu li#horas a, 
+.adicionais #menu li#adicionais a, 
+.regras #menu li#regras a,
+.rel_invest #menu li#rel_invest a,
+.anuncie_uol #menu li#anuncie_uol a, 
+.trabalhe_uol #menu li#trabalhe_uol a,
+
+.cancelar #menu li#cancelar a {background-color:#FEE199; font-weight:bold;}
+/*.cancelar #menu li#cancelar a {background:url(https://simg.uol.com.br/sac/2005/bkg_li_menu_b.gif) repeat-x left top; font-weight:bold;}*/
+
+/* fim menu lateral */
+
+#footer {clear:both; width: 760px; margin-bottom: 10px}
+
+#privacidade {padding:5px 0 0;text-align:center;clear:both;}
+
+#rUso {background:url(https://simg.uol.com.br/sac/2005/ico_regrasuso.gif) no-repeat 0 1px; padding-left:14px;color:#000;}
+
+/* miolo */
+.f10 {font: normal 0.8em verdana;}
+.normal li {margin:5px 5px 5px 25px;}
+
+/* \*/
+* html #menu li a {height: 1%; he\ight: 1px; padding-bottom: 1px; padd\ing-bottom: 5px;}
+/* */
+
+
+.maisfale #main{
+	width: 440px;
+	margin-right: 10px;
+	}
+	
+.autoriza #main{
+	width: 600px;
+	}
+
+.maisfale #col_dir {
+	width: 150px; 
+	float: right;
+	}
+
+#main p {
+	margin: 10px 0;
+	clear: both;
+	}
+
+#main dd {
+	clear: both;
+	}
+
+#main h3 {
+	font-size:1.6em;
+	}
+
+#main h4 {
+	clear: both;
+	font-size: 1.3em;
+	margin-top: 20px;
+}
+
+
+#main h5 {
+	clear: both;
+	font-size: 1.3em;
+	margin: 10px 0;
+	color: #8F8466;
+	}
+
+#main ul {margin: 10px 10px 30px 30px;}
+
+#main ul li {
+list-style: none;
+padding: 0 0 0 10px;
+margin: 3px 0 0;
+}
+
+#main ul ol li{
+list-style: decimal;
+}
+
+.com_seta, #main ul.setados li {
+	list-style:none;
+	background: url(https://simg.uol.com.br/sac/2005/seta_verm.gif) no-repeat 0 4px;
+	padding:0 0 0 10px;
+	margin:5px 0 0;
+}
+
+/* Main generics styles */
+#main ul.msg li {background-image: none }
+#main ol {margin: 10px 0 0 40px;}
+
+#main table, #main dl , #main ul , #main p , #main legend, #main ol {font-size: 1.2em;}
+#main table.informa th{	color: #8F8466;	text-align: left;	padding: 3px 20px 3px 0;	font-weight: normal;	border-bottom: 1px solid #C7C1B2;}
+#main table.informa td{	border-bottom: 1px solid #C7C1B2;	padding: 3px 0;}
+
+
+/* info/segurança */
+.seguranca #main ul {margin: 10px 10px 30px 30px;}
+.seguranca #main ul li {
+list-style: square;
+padding: 0;
+margin: 10px 0 0;
+}
+
+/* troca de plano */
+.alterarplano #box2 {
+	margin-left: 20px;
+width: 550px;
+}
+
+.alterarplano #box2 .header_plan, .header_choose {
+	padding: 3px;
+	margin: 20px 0 5px;
+	font:bold 1.3em arial;
+	color:#685C3B;
+}
+
+.header_choose a {
+	color: #0E77C0;
+}
+
+input {vertical-align: top}
+
+input[type="text"] {vertical-align: top}
+
+.alterarplano #box2 .header_plan input {
+	margin: 2px 5px 0 2px;
+	padding:0;
+}
+	/* \*/ * html .alterarplano #box2 .header_plan input {margin: -2px;	padding:0;} /* */
+
+.alterarplano #box2 strong {
+	font:bold .9em arial;
+}
+
+.alterarplano #box2 span {
+	float:left;
+	width: 70px;
+	margin-right:5px;
+	text-align: right;
+	font:bold 1em arial;
+}
+
+.alterarplano #box2 .planAd {
+	margin: 5px 0 0 50px !important;
+}
+
+.alterarplano #box2 b {
+	color: #685C3B;
+	font: bold 1em arial;
+	margin: 0;
+}
+
+.alterarplano #box2 p {
+	padding: 2px 0 0;
+	margin: 0 !important;
+}	
+/* fim da troca de plano */
+	
+#main table.extrato{
+margin-top: 20px;
+}
+
+.zebrar .odd td {
+background: #C7C1B2;
+}
+
+#main table.extrato th{
+	padding: 3px 20px 3px 0;
+	font-weight: bold;
+	border-bottom: 1px solid #C7C1B2;
+	}
+
+#main table.extrato td{
+	border-bottom: 1px solid #C7C1B2;
+	padding: 3px 0;
+	}
+
+#main table.extrato td.prim{
+	padding: 3px 0 0 10px;
+	}
+
+#main .questao {
+	background: #F7F7F3;
+	padding: 11px;
+	}
+
+
+/* Formulario */
+
+.campo_tit {
+	width: 200px;
+	font-weight: bold;
+	margin-right: 7px;
+	text-align: right;
+	float: left;
+}
+
+.header_tit {padding:2px; background-color:#F2F2EA}
+	
+/* fim das classes de formulario */
+
+#main ul.conta_default {
+background: url("https://simg.uol.com.br/sac/2005/contas_normais.gif") no-repeat 0 0;
+padding-left: 50px;
+display: table;
+}
+p.notafiscal {
+	padding-left: 50px;
+	line-height: 30px;
+	}
+
+#main ul.conta_patroc {
+background: url("https://simg.uol.com.br/sac/2005/contas_patroc.gif") no-repeat 0 0;
+padding-left: 50px;
+}
+
+#main ul.conta_fone {
+background: url("https://simg.uol.com.br/sac/2005/contas_fone.gif") no-repeat 0 0;
+padding-left: 50px;
+}
+
+h6 {
+padding: 0 0 0 10px; 
+color:#000; 
+min-height:19px; 
+_height:19px; 
+background: url('https://simg.uol.com.br/sac/2005/cano.gif') repeat-x;
+font-size: 1.4em;
+font-weight: weight;
+}
+
+h6 span {padding-left: 20px}
+
+h6.amar span {background: url(https://simg.uol.com.br/sac/2005/quad_amar.gif) no-repeat;}
+h6.verm span {background: url(https://simg.uol.com.br/sac/2005/quad_verm.gif) no-repeat;}
+h6.lara span {background: url(https://simg.uol.com.br/sac/2005/quad_lara.gif) no-repeat;}
+h6.roxo span {background: url(https://simg.uol.com.br/sac/2005/quad_roxo.gif) no-repeat;}
+
+.skip {display:none;}
+
+.dica {
+position: absolute;
+left: 340px;
+width: 250px;
+padding: 4px 4px 5px 23px;
+background: url('https://simg.uol.com.br/cadastro/dica.gif') 3px 3px no-repeat #F4F4F4;
+font-size: 1.1em;
+}
+
+.cadastro .dica {
+width: 200px;
+left: 390px;
+}
+
+.a {background-color: #FFF;}
+.b {background-color: #F8F8F6;}
+
+#messages, #messages_ok {display: none;} 
+
+/*=== Caixa com informações sobre cartões de crédito
+-----------------------------------------------------=== */
+
+#info-cartao-codigo {
+	font:   0.9em verdana;
+	margin: 1em;
+	padding-left: 175px;
+	width: 375px;
+}
+
+#info-cartao-codigo dt {
+	padding-bottom: 7px;
+}
+
+#info-cartao-codigo dd {
+	color:       #666;
+	font:        .8em verdana;
+	_height:     74px;
+	line-height: 1.5;
+	min-height:  74px;
+	padding-top: 3px;
+}
+
+#info-cartao-codigo img {
+	float:  left;
+	margin: -3px 5px 0px 0px;
+}
+
+#banner-uol-host {
+	display: block;  
+	margin: 90px 0 0 20px;  
+	_margin-top: 40px; 
+	width: 120px;  
+}

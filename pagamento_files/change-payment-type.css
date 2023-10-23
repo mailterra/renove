@@ -1,0 +1,65 @@
+/**********************************/
+#main #title_change_payment{
+	padding:0px;
+	margin:0px;
+}
+#main #title_change_payment li {
+	margin:0px 1px 0px 0px;
+	padding:5px 0px 5px 13px;
+	color:#fff;
+	font-weight:bold;
+	background-color:#8EA4BB;
+	float:left;
+	border-bottom:1px solid #014D9B;
+	font-size:14px;
+}
+#title_change_payment .title_service{
+	width:156px;
+}
+#title_change_payment .title_payment_type{
+	width:166px;
+}
+#title_change_payment .title_payment_address{
+	width:224px;
+}
+#account_list_payment{
+	float:left;
+}
+.cornao{
+	background-color:#fff;
+}
+.corsim{
+	background-color:#F8F8F6;
+	border-top: 1px solid #D3D3D3;
+	border-bottom: 1px solid #D3D3D3;
+}
+
+#account_list_payment {
+	font-size:12px;
+line-height:18px;
+}
+#account_list_payment div{
+	padding:5px 0px 5px 13px;
+}
+#account_list_payment #service{
+	width:156px;
+	float:left;
+	font-weight:bold;
+}
+#account_list_payment #payment_type{
+	width:168px;
+	float:left;
+	font-style: italic;
+}
+#account_list_payment #payment_address{
+	width:224px;
+	float:left;
+	font-style: italic;
+}
+#payment_type a,
+#payment_address a{
+	display:block;
+	font-weight:bold;
+	margin-top:10px;
+	font-style:normal;
+}
